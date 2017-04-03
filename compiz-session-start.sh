@@ -8,6 +8,7 @@
 # copying config files for compiz
 [ -f ~/.config/compiz-1/compizconfig ] || cp -r /etc/skel/.config/compiz-1 ~/.config/compiz-1
 [ -f ~/.config/compiz/boxmenu/menu.xml ] || cp -r /etc/skel/.config/compiz ~/.config/compiz
+[ -f ~/.emerald ] || cp -r /etc/skel/.emerald ~/.emerald
 
 # running script to start applications in user's openbox/autostart file
 compiz-autostart &
